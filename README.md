@@ -78,7 +78,7 @@ You can modify initial conditions in `main.py` or adjust parameters like gravita
 
 ## Limitations
 
-- Uses simple calculations, which may result in improper predictions at time
+- Uses simple calculations, which may result in improper predictions at times
 - 2D simulation (no z-axis)
 - No collision detection
 - Chaotic nature means long-term predictions may diverge
