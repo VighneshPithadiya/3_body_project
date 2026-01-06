@@ -6,7 +6,7 @@ This project simulates the three-body problem, a well known challenge in the fie
 
 ## The Three-Body Problem
 
-In the three-body problem, three point masses interact gravitationally. The system is governed by Newton's laws of motion and the law of universal gravitation:
+In the three-body problem, three point masses interact gravitationally. The system is governed by Newton's laws of motion and the law of universal gravitation:        
 
 F = G*(m_1 * m_2)/r**2
 
