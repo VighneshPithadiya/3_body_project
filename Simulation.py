@@ -18,8 +18,8 @@ class Simulation: #controls the bodies and the physics
                 if current is other:
                     continue
                 dist = np.sqrt(np.sum((np.subtract(current.position, other.position)) ** 2))  #distance between the two bodies
-                if dist < 1e-10:
-                    continue
+                # if dist < 1e-10:
+                #     continue
                 Force_g = self.G *(current.mass * other.mass) / (dist ** 2) #gravitational force magnitude
                 direction_vector = np.subtract(other.position, current.position) / dist #unit vector from current to other
                 accel = (Force_g / current.mass) * direction_vector #acceleration vector due to other body
